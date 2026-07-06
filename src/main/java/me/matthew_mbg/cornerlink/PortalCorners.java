@@ -1,7 +1,7 @@
-package net.fabricmc.dakes.cornerlink;
+package me.matthew_mbg.cornerlink;
 
-import net.minecraft.block.BlockState;
-import net.minecraft.registry.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.level.block.state.BlockState;
 
 public class PortalCorners {
     public BlockState lower1;
@@ -65,7 +65,7 @@ public class PortalCorners {
         }
         else
         {
-            return Registries.BLOCK.getId(state.getBlock()).toString();
+            return BuiltInRegistries.BLOCK.getKey(state.getBlock()).toString();
         }
     }
 }

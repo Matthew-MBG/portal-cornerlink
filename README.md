@@ -3,7 +3,7 @@
 Control Nether portal linking by placing glazed terracotta at portal corners. Portals connect to destinations with matching corner patterns.
 
 **Fork of**: [Corner Portal Linking](https://gitlab.com/mc-starbidou/corner-portal-linking) by starbidou
-**This version**: Updated to 1.21.X with performance improvements (4-8x faster portal matching)
+**This version**: Ported to Minecraft 1.21.1 on NeoForge with performance improvements (4-8x faster portal matching)
 
 ## How It Works
 
@@ -19,7 +19,7 @@ Patterns are matched by block type, orientation doesn't matter (flipped portals 
 ```bash
 ./gradlew build
 ```
-Output: `build/libs/dakes-cornerlink-fabric-1.0.0.jar`
+Output: `build/libs/matthew_mbg-cornerlink-neoforge-1.0.0.jar`
 
 ### Development
 ```bash
@@ -36,9 +36,8 @@ The flake provides a reproducible development environment with all required depe
 
 ## Requirements
 
-- Minecraft
-- Fabric Loader ≥0.17.2
-- Fabric API ≥0.138.3
+- Minecraft 1.21.1
+- NeoForge 21.1.x
 - Java 21
 
 ## License
