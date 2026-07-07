@@ -2,7 +2,7 @@
 
 Control Nether portal linking by placing glazed terracotta at portal corners. Portals connect to destinations with matching corner patterns.
 
-**Fork of**: [Corner Portal Linking](https://gitlab.com/mc-starbidou/corner-portal-linking) by starbidou
+**Fork of**: [Corner Portal Linking](https://github.com/Dakes/portal-cornerlink) by Dakes
 **This version**: Ported to Minecraft 1.21.1 on NeoForge with performance improvements (4-8x faster portal matching)
 
 ## How It Works
